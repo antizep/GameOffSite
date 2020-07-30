@@ -16,7 +16,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class GreetingController {
 
-	@GetMapping("/index")
+	@GetMapping("/game/index")
 	public String greeting(Model model) {
 
 		/*
